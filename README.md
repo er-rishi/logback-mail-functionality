@@ -1,0 +1,1 @@
+# logback-mail-functionality
