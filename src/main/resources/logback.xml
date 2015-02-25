@@ -21,7 +21,8 @@
 			<pattern>%date %-5level %logger - %message%n</pattern>
 		</layout>
 	</appender>
-	<root level="error">
+	<root level="info">
 		<appender-ref ref="EMAIL" />
+                <appender-ref ref="CONSOLE" />
 	</root>
 </configuration> 
